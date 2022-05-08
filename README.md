@@ -1,5 +1,8 @@
 Leetcode algo code template:
 
+0,LEETCODE COMMON TEMPLATES & COMMON CODE PROBLEMS
+https://cheatsheet.dennyzhang.com/cheatsheet-leetcode-a4
+
 1,Binary search 
 1.a:Python template code(java code is similar)
 class Solution:
