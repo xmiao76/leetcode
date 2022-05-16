@@ -20,7 +20,7 @@ Detail explain: https://leetcode.com/problems/first-bad-version/discuss/769685/P
 1.b: use Java util method: 
 Collections.binarySearch(List slist, T key)
 
-Notice:if a number is not present in the list when we use Collections.binarySearch(), it returns -potentialIndex-1, where the potentialIndex is the location at which the number would have been inserted, so to get the exact index author is doing -index - 1
+Notice:if a number is not present in the list when we use Collections.binarySearch(List slist, T key), it returns -potentialIndex-1, where the potentialIndex is the location at which the number would have been inserted, so to get the exact index author is doing -index - 1
 So, in this case, index = -(-potentialIndex - 1) - 1 = potentialIndex
 
 2,DFS template
