@@ -25,3 +25,6 @@ So, in this case, index = -(-potentialIndex - 1) - 1 = potentialIndex
 
 2,DFS template
 https://leetcode.com/problems/number-of-islands/discuss/1089975/java-dfs-1ms-general-matrix-traversing-dfs-template?msclkid=61b9991cce9011ec8ac5370ae07b7016
+
+3,Two Points code template
+https://leetcode.com/problems/binary-subarrays-with-sum/discuss/1353347/Java-3-O(N)-Time-Solutions
