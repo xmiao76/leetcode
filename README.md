@@ -27,4 +27,29 @@ So, in this case, index = -(-potentialIndex - 1) - 1 = potentialIndex
 https://leetcode.com/problems/number-of-islands/discuss/1089975/java-dfs-1ms-general-matrix-traversing-dfs-template?msclkid=61b9991cce9011ec8ac5370ae07b7016
 
 3,Two Points code template
-https://leetcode.com/problems/binary-subarrays-with-sum/discuss/1353347/Java-3-O(N)-Time-Solutions
+3.1 https://leetcode.com/problems/binary-subarrays-with-sum/discuss/1353347/Java-3-O(N)-Time-Solutions
+
+3.2 https://leetcode.com/problems/minimum-window-substring/discuss/26808/Here-is-a-10-line-template-that-can-solve-most-'substring'-problems
+Java template code:
+class Solution {
+    public String minWindow(String s, String t) {
+        int[] arr = new int[128];        
+        int counter=t.length(), begin=0, end=0,  head=0;//two pointers, one point to tail and one  head
+        int d=Integer.MAX_VALUE;//the length of substring
+        for(char c: t.toCharArray()) arr[c-'A']++;/* initialize the hash map here */
+        while(end<s.length()){            
+            if(arr[s.charAt(end++)-'A']-->0) counter--;  /* modify counter here */
+            while(counter==0){ /* counter condition */
+                /* update d here if finding minimum*/
+                if(end-begin<d) {
+                    head=begin;
+                    d=end-begin;
+                } 
+                //increase begin to make it invalid/valid again
+                if(arr[s.charAt(begin++)-'A']++==0) counter++;   /*modify counter here*/
+            }
+            /* update d here if finding maximum*/
+        }
+        return d==Integer.MAX_VALUE? "":s.substring(head, head+d);    
+    }
+}
