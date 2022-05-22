@@ -53,3 +53,25 @@ class Solution {
         return d==Integer.MAX_VALUE? "":s.substring(head, head+d);    
     }
 }
+https://leetcode.com/problems/binary-subarrays-with-sum/submissions/ , code follow similar tempalte:
+    public int numSubarraysWithSum(int[] nums, int goal) {
+        int ans=0;
+        if(goal==0){
+            ...
+        }
+        int begin=0,end=0,sum=0;
+        while(end<nums.length){
+            sum+=nums[end];/* modify counter here */
+            end++;
+            if(sum==goal){/* counter condition */
+                int count=1;
+                while(begin<end && nums[begin]==0) {count++;begin++;}
+                while(end<nums.length && nums[end]==0){ ans+=count;end++;}
+                ans+=count;
+                //increase begin to make it invalid/valid again
+                if(begin<nums.length && nums[begin]==1){sum--; begin++;}
+            }
+        }
+        return ans;
+        
+    }
