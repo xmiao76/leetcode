@@ -79,3 +79,24 @@ https://leetcode.com/problems/binary-subarrays-with-sum/submissions/ , code foll
 4,sorting
 4.1, 7 Sorting Algorithms (quick sort, top-down/bottom-up merge sort, heap sort, etc.)
 https://leetcode.com/problems/sort-an-array/discuss/492042/7-Sorting-Algorithms-(quick-sort-top-downbottom-up-merge-sort-heap-sort-etc.)
+
+5,BST Iterator
+https://leetcode.com/problems/binary-tree-inorder-traversal/
+public List<Integer> inorderTraversal(TreeNode root) {
+        List<Integer> list = new ArrayList<Integer>();
+
+        Stack<TreeNode> stack = new Stack<TreeNode>();
+        TreeNode cur = root;
+
+        while(cur!=null || !stack.empty()){
+            while(cur!=null){
+                stack.add(cur);
+                cur = cur.left;
+            }
+            cur = stack.pop();
+            list.add(cur.val);
+            cur = cur.right;
+        }
+
+        return list;
+    }
