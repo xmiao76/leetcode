@@ -101,3 +101,23 @@ public List<Integer> inorderTraversal(TreeNode root) {
 
         return list;
     }
+    
+https://leetcode.com/problems/kth-smallest-element-in-a-bst/    
+    public int kthSmallest(TreeNode root, int k) {
+      Stack<TreeNode> stack = new Stack<TreeNode>();
+        TreeNode cur = root;
+
+        while(cur!=null || !stack.empty()){
+            while(cur!=null){
+                stack.add(cur);
+                cur = cur.left;
+            }
+            cur = stack.pop();
+            k--;
+            if(k==0) break;
+            cur = cur.right;
+        }
+        
+        if(cur==null) return -1;
+        else return cur.val;
+    }
