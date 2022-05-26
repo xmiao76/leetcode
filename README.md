@@ -30,6 +30,20 @@ Notice:if a number is not present in the list when we use Collections.binarySear
 So, in this case, index = -(-potentialIndex - 1) - 1 = potentialIndex
 
 2,DFS template
+使⽤条件 
+• 找满⾜某个条件的所有⽅案 (99%) 
+• ⼆叉树 Binary Tree 的问题 (90%) 
+• 组合问题(95%) ◦ 问题模型：求出所有满⾜条件的“组合” ◦ 判断条件：组合中的元素是顺序⽆关的 
+• 排列问题 (95%) ◦ 问题模型：求出所有满⾜条件的“排列” ◦ 判断条件：组合中的元素是顺序“相关”的。 
+不要⽤ DFS 的场景 
+1. 连通块问题（⼀定要⽤ BFS，否则 StackOverflow） 
+2. 拓扑排序（⼀定要⽤ BFS，否则 StackOverflow） 
+3. ⼀切 BFS 可以解决的问题 
+复杂度 
+• 时间复杂度：O(⽅案个数 * 构造每个⽅案的时间) 
+◦ 树的遍历 ： O(n) 
+◦ 排列问题 ： O(n! * n) 
+◦ 组合问题 ： O(2^n * n)
 https://leetcode.com/problems/number-of-islands/discuss/1089975/java-dfs-1ms-general-matrix-traversing-dfs-template?msclkid=61b9991cce9011ec8ac5370ae07b7016
 
 3,Two Points code template
