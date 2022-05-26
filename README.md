@@ -124,6 +124,7 @@ https://leetcode.com/problems/kth-smallest-element-in-a-bst/
     
     
 6,宽度优先搜索 BFS
+6.1,
 https://leetcode.com/problems/01-matrix/
 https://leetcode.com/problems/01-matrix/discuss/1499453/JAVA-%2B-BFS-SOLUTION-WITH-BETTER-INTUITION
     
@@ -161,3 +162,7 @@ ReturnType bfs(Node startNode) {
     // 如果需要返回离终点的最短距离 
     return distance.get(endNode); 
 }
+
+6.2,
+https://leetcode.com/problems/number-of-connected-components-in-an-undirected-graph
+https://leetcode.com/problems/number-of-connected-components-in-an-undirected-graph/discuss/77651/Standard-BFS-and-DFS-Solution-JAVA
