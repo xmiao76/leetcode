@@ -4,6 +4,12 @@ Leetcode algo code template:
 https://cheatsheet.dennyzhang.com/cheatsheet-leetcode-a4 (python)
 
 1,Binary search 
+排序数组 (30-40%是⼆分) 
+当⾯试官要求你找⼀个⽐ O(n) 更⼩的时间复杂度算法的时候(99%) 
+找到数组中的⼀个分割位置，使得左半部分满⾜某个条件，右半部分不满⾜(100%) 
+找到⼀个最⼤/最⼩的值使得某个条件被满⾜(90%) 
+时间复杂度：O(logn) 
+空间复杂度：O(1)
 1.a:Python template code(java code is similar)
 class Solution:
     def firstBadVersion(self, n) -> int:
@@ -27,6 +33,13 @@ So, in this case, index = -(-potentialIndex - 1) - 1 = potentialIndex
 https://leetcode.com/problems/number-of-islands/discuss/1089975/java-dfs-1ms-general-matrix-traversing-dfs-template?msclkid=61b9991cce9011ec8ac5370ae07b7016
 
 3,Two Points code template
+滑动窗⼝ (90%) 
+时间复杂度要求 O(n) (80%是双指针) 
+要求原地操作，只可以使⽤交换，不能使⽤额外空间 (80%) 
+有⼦数组 subarray /⼦字符串 substring 的关键词 (50%) 
+有回⽂ Palindrome 关键词(50%) 
+时间复杂度：O(n) 时间复杂度与最内层循环主体的执⾏次数有关 与有多少重循环⽆关 
+空间复杂度：O(1) 只需要分配两个指针的额外内存
 3.1 https://leetcode.com/problems/binary-subarrays-with-sum/discuss/1353347/Java-3-O(N)-Time-Solutions
 
 3.2 https://leetcode.com/problems/minimum-window-substring/discuss/26808/Here-is-a-10-line-template-that-can-solve-most-'substring'-problems
@@ -86,7 +99,22 @@ https://leetcode.com/problems/binary-subarrays-with-sum/submissions/ , code foll
 4.1, 7 Sorting Algorithms (quick sort, top-down/bottom-up merge sort, heap sort, etc.)
 https://leetcode.com/problems/sort-an-array/discuss/492042/7-Sorting-Algorithms-(quick-sort-top-downbottom-up-merge-sort-heap-sort-etc.)
 
-5,BST Iterator
+5,⼆叉树分治 Binary Tree Divide & Conquer
+⼆叉树相关的问题 (99%) 
+可以⼀分为⼆去分别处理之后再合并结果 (100%) 
+数组相关的问题 (10%) 
+时间复杂度 O(n) 
+空间复杂度 O(n) (含递归调⽤的栈空间最⼤耗费)
+5.1,
+https://leetcode.com/problems/convert-binary-search-tree-to-sorted-doubly-linked-list/
+https://leetcode.com/problems/convert-binary-search-tree-to-sorted-doubly-linked-list/discuss/1494821/Simplest-Java-solution-with-explanation.-Inorder-traversal-in-place-no-dummy-node-needed
+5.2,
+https://leetcode.com/problems/binary-tree-maximum-path-sum/
+5.3，
+https://leetcode.com/problems/validate-binary-search-tree/
+
+
+6,BST Iterator
 使⽤条件 
 • ⽤⾮递归的⽅式（Non-recursion / Iteration）实现⼆叉树的中序遍历 
 • 常⽤于 BST 但不仅仅可以⽤于 BST 
@@ -135,7 +163,7 @@ https://leetcode.com/problems/kth-smallest-element-in-a-bst/
     }
     
     
-6,宽度优先搜索 BFS
+7,宽度优先搜索 BFS
     拓扑排序(100%) 
     出现连通块的关键词(100%) 
     分层遍历(100%) 
@@ -143,7 +171,7 @@ https://leetcode.com/problems/kth-smallest-element-in-a-bst/
     给定⼀个变换规则，从初始状态变到终⽌状态最少⼏步(100%) 
     时间复杂度：O(n + m) n 是点数, m 是边数 
     空间复杂度：O(n)
-6.1,
+7.1,
 https://leetcode.com/problems/01-matrix/
 https://leetcode.com/problems/01-matrix/discuss/1499453/JAVA-%2B-BFS-SOLUTION-WITH-BETTER-INTUITION
     
@@ -182,6 +210,6 @@ ReturnType bfs(Node startNode) {
     return distance.get(endNode); 
 }
 
-6.2,
+7.2,
 https://leetcode.com/problems/number-of-connected-components-in-an-undirected-graph
 https://leetcode.com/problems/number-of-connected-components-in-an-undirected-graph/discuss/77651/Standard-BFS-and-DFS-Solution-JAVA
