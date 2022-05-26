@@ -77,10 +77,22 @@ https://leetcode.com/problems/binary-subarrays-with-sum/submissions/ , code foll
     }
         
 4,sorting
+时间复杂度： 
+快速排序(期望复杂度) ： O(nlogn) 
+归并排序(最坏复杂度) ： O(nlogn) 
+空间复杂度： 
+快速排序 ： O(1) 
+归并排序 ： O(n)
 4.1, 7 Sorting Algorithms (quick sort, top-down/bottom-up merge sort, heap sort, etc.)
 https://leetcode.com/problems/sort-an-array/discuss/492042/7-Sorting-Algorithms-(quick-sort-top-downbottom-up-merge-sort-heap-sort-etc.)
 
 5,BST Iterator
+使⽤条件 
+• ⽤⾮递归的⽅式（Non-recursion / Iteration）实现⼆叉树的中序遍历 
+• 常⽤于 BST 但不仅仅可以⽤于 BST 
+复杂度 
+时间复杂度 O(n) 
+空间复杂度 O(n)
 https://leetcode.com/problems/binary-tree-inorder-traversal/
 
 public List<Integer> inorderTraversal(TreeNode root) {
@@ -124,6 +136,13 @@ https://leetcode.com/problems/kth-smallest-element-in-a-bst/
     
     
 6,宽度优先搜索 BFS
+    拓扑排序(100%) 
+    出现连通块的关键词(100%) 
+    分层遍历(100%) 
+    简单图最短路径(100%) 
+    给定⼀个变换规则，从初始状态变到终⽌状态最少⼏步(100%) 
+    时间复杂度：O(n + m) n 是点数, m 是边数 
+    空间复杂度：O(n)
 6.1,
 https://leetcode.com/problems/01-matrix/
 https://leetcode.com/problems/01-matrix/discuss/1499453/JAVA-%2B-BFS-SOLUTION-WITH-BETTER-INTUITION
