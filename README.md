@@ -125,6 +125,7 @@ https://leetcode.com/problems/kth-smallest-element-in-a-bst/
     
 6,宽度优先搜索 BFS
 https://leetcode.com/problems/01-matrix/
+https://leetcode.com/problems/01-matrix/discuss/1499453/JAVA-%2B-BFS-SOLUTION-WITH-BETTER-INTUITION
     
 ReturnType bfs(Node startNode) { 
     // BFS 必须要⽤队列 queue，别⽤栈 stack！ 
