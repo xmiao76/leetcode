@@ -46,6 +46,21 @@ So, in this case, index = -(-potentialIndex - 1) - 1 = potentialIndex
 ◦ 组合问题 ： O(2^n * n)
 https://leetcode.com/problems/number-of-islands/discuss/1089975/java-dfs-1ms-general-matrix-traversing-dfs-template?msclkid=61b9991cce9011ec8ac5370ae07b7016
 
+https://leetcode.com/problems/binary-tree-inorder-traversal/
+https://leetcode.com/problems/factor-combinations/
+public ReturnType dfs(参数列表) { 
+    if (递归出⼝) { 
+        记录答案; 
+        return; 
+    } 
+    for (所有的拆解可能性) { 
+        修改所有的参数 
+        dfs(参数列表); 
+        还原所有被修改过的参数 
+    } 
+    return something 如果需要的话，很多时候不需要 return 值除了分治的写法 
+}
+
 3,Two Points code template
 滑动窗⼝ (90%) 
 时间复杂度要求 O(n) (80%是双指针) 
