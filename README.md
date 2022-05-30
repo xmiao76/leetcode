@@ -328,3 +328,15 @@ https://leetcode.com/problems/wildcard-matching/submissions/
 8.2 划分型
 https://leetcode.com/problems/word-break/
                                                                                                             
+9 堆 Heap 
+使⽤条件 
+1. 找最⼤值或者最⼩值(60%) 
+2. 找第 k ⼤(pop k 次 复杂度O(nlogk))(50%) 
+3. 要求 logn 时间对数据进⾏操作(40%)
+堆不能解决的问题 
+1. 查询⽐某个数⼤的最⼩值/最接近的值（平衡排序⼆叉树 Balanced BST 才可以解决） 
+2. 找某段区间的最⼤值最⼩值（线段树 SegmentTree 可以解决） 
+3. O(n)找第k⼤ (使⽤快排中的partition操作)
+                                                                                                            
+https://leetcode.com/problems/find-k-pairs-with-smallest-sums/submissions/
+                                                                                                            
