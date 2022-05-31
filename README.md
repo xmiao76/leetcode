@@ -340,4 +340,5 @@ https://leetcode.com/problems/word-break/
                                                                                                             
 https://leetcode.com/problems/find-k-pairs-with-smallest-sums/submissions/
 https://leetcode.com/problems/meeting-rooms-ii/submissions/
+https://leetcode.com/problems/minimum-cost-to-hire-k-workers/submissions/
                                                                                                             
