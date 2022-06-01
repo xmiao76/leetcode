@@ -341,4 +341,10 @@ https://leetcode.com/problems/word-break/
 https://leetcode.com/problems/find-k-pairs-with-smallest-sums/submissions/
 https://leetcode.com/problems/meeting-rooms-ii/submissions/
 https://leetcode.com/problems/minimum-cost-to-hire-k-workers/submissions/
-                                                                                                            
+                                                                       
+10, 并查集 Union Find 
+使⽤条件 
+    • 需要查询图的连通状况的问题 
+    • 需要⽀持快速合并两个集合的问题 复杂度 
+    • 时间复杂度 union O(1), find O(1) 
+    • 空间复杂度 O(n)
