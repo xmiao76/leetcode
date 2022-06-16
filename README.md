@@ -348,3 +348,7 @@ https://leetcode.com/problems/minimum-cost-to-hire-k-workers/submissions/
     • 需要⽀持快速合并两个集合的问题 复杂度 
     • 时间复杂度 union O(1), find O(1) 
     • 空间复杂度 O(n)
+Sample: 
+    721. Accounts Merge: https://leetcode.com/problems/accounts-merge/
+    803. Bricks Falling When Hit , https://leetcode.com/problems/bricks-falling-when-hit/ , https://www.youtube.com/watch?v=mPT6ow3MbXw
+                                                                                                            
