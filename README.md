@@ -350,5 +350,5 @@ https://leetcode.com/problems/minimum-cost-to-hire-k-workers/submissions/
     • 空间复杂度 O(n)
 Sample: 
     721. Accounts Merge: https://leetcode.com/problems/accounts-merge/
-    803. Bricks Falling When Hit , https://leetcode.com/problems/bricks-falling-when-hit/ , https://www.youtube.com/watch?v=mPT6ow3MbXw
+    803. Bricks Falling When Hit , https://leetcode.com/problems/bricks-falling-when-hit/ , https://www.youtube.com/watch?v=qItIA8m3OnU
                                                                                                             
