@@ -1,0 +1,47 @@
+6,BST Iterator
+使⽤条件 
+• ⽤⾮递归的⽅式（Non-recursion / Iteration）实现⼆叉树的中序遍历 
+• 常⽤于 BST 但不仅仅可以⽤于 BST 
+复杂度 
+时间复杂度 O(n) 
+空间复杂度 O(n)
+https://leetcode.com/problems/binary-tree-inorder-traversal/
+
+public List<Integer> inorderTraversal(TreeNode root) {
+        List<Integer> list = new ArrayList<Integer>();
+
+        Stack<TreeNode> stack = new Stack<TreeNode>();
+        TreeNode cur = root;
+
+        while(cur!=null || !stack.empty()){
+            while(cur!=null){
+                stack.add(cur);
+                cur = cur.left;
+            }
+            cur = stack.pop();
+            list.add(cur.val);
+            cur = cur.right;
+        }
+
+        return list;
+    }
+    
+https://leetcode.com/problems/kth-smallest-element-in-a-bst/    
+    public int kthSmallest(TreeNode root, int k) {
+      Stack<TreeNode> stack = new Stack<TreeNode>();
+        TreeNode cur = root;
+
+        while(cur!=null || !stack.empty()){
+            while(cur!=null){
+                stack.add(cur);
+                cur = cur.left;
+            }
+            cur = stack.pop();
+            k--;
+            if(k==0) break;
+            cur = cur.right;
+        }
+        
+        if(cur==null) return -1;
+        else return cur.val;
+    }
