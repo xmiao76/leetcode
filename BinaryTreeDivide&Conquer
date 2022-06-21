@@ -1,0 +1,13 @@
+5,⼆叉树分治 Binary Tree Divide & Conquer
+⼆叉树相关的问题 (99%) 
+可以⼀分为⼆去分别处理之后再合并结果 (100%) 
+数组相关的问题 (10%) 
+时间复杂度 O(n) 
+空间复杂度 O(n) (含递归调⽤的栈空间最⼤耗费)
+5.1,
+https://leetcode.com/problems/convert-binary-search-tree-to-sorted-doubly-linked-list/
+https://leetcode.com/problems/convert-binary-search-tree-to-sorted-doubly-linked-list/discuss/1494821/Simplest-Java-solution-with-explanation.-Inorder-traversal-in-place-no-dummy-node-needed
+5.2,
+https://leetcode.com/problems/binary-tree-maximum-path-sum/
+5.3，
+https://leetcode.com/problems/validate-binary-search-tree/
