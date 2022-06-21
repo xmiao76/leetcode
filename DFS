@@ -1,0 +1,31 @@
+2,DFS template
+使⽤条件 
+• 找满⾜某个条件的所有⽅案 (99%) 
+• ⼆叉树 Binary Tree 的问题 (90%) 
+• 组合问题(95%) ◦ 问题模型：求出所有满⾜条件的“组合” ◦ 判断条件：组合中的元素是顺序⽆关的 
+• 排列问题 (95%) ◦ 问题模型：求出所有满⾜条件的“排列” ◦ 判断条件：组合中的元素是顺序“相关”的。 
+不要⽤ DFS 的场景 
+1. 连通块问题（⼀定要⽤ BFS，否则 StackOverflow） 
+2. 拓扑排序（⼀定要⽤ BFS，否则 StackOverflow） 
+3. ⼀切 BFS 可以解决的问题 
+复杂度 
+• 时间复杂度：O(⽅案个数 * 构造每个⽅案的时间) 
+◦ 树的遍历 ： O(n) 
+◦ 排列问题 ： O(n! * n) 
+◦ 组合问题 ： O(2^n * n)
+https://leetcode.com/problems/number-of-islands/discuss/1089975/java-dfs-1ms-general-matrix-traversing-dfs-template?msclkid=61b9991cce9011ec8ac5370ae07b7016
+
+https://leetcode.com/problems/binary-tree-inorder-traversal/
+https://leetcode.com/problems/factor-combinations/
+public ReturnType dfs(参数列表) { 
+    if (递归出⼝) { 
+        记录答案; 
+        return; 
+    } 
+    for (所有的拆解可能性) { 
+        修改所有的参数 
+        dfs(参数列表); 
+        还原所有被修改过的参数 
+    } 
+    return something 如果需要的话，很多时候不需要 return 值除了分治的写法 
+}
