@@ -54,3 +54,8 @@ https://leetcode.com/problems/binary-subarrays-with-sum/submissions/ , code foll
         return ans;
         
     }
+    
+3.3 Two-Pointers-Template-for-nSum problem: 
+https://leetcode.com/problems/3sum/discuss/820254/Two-Pointers-Template-for-such-problems-!-Python3-AC(for-while template, to be translated to java)
+
+https://leetcode.com/problems/3sum/submissions/ (use for-while template, todo)
