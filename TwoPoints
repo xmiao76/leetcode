@@ -12,17 +12,17 @@
 Java template code:
 class Solution {
     public String minWindow(String s, String t) {
-        int[] arr = new int[128];        
-        int counter=t.length(), begin=0, end=0,  head=0;//two pointers, one point to tail and one  head
+        int[] arr = new int[64];        
+        int counter=t.length(), begin=0, head=0;//two pointers, one point to tail and one  head
         int d=Integer.MAX_VALUE;//the length of substring
         for(char c: t.toCharArray()) arr[c-'A']++;/* initialize the hash map here */
-        while(end<s.length()){            
-            if(arr[s.charAt(end++)-'A']-->0) counter--;  /* modify counter here */
+        for(int end=0;end<s.length();end++){
+            if(arr[s.charAt(end)-'A']-->0) counter--;  /* modify counter here */
             while(counter==0){ /* counter condition */
                 /* update d here if finding minimum*/
-                if(end-begin<d) {
+                if(end+1-begin<d) {
                     head=begin;
-                    d=end-begin;
+                    d=end+1-begin;
                 } 
                 //increase begin to make it invalid/valid again
                 if(arr[s.charAt(begin++)-'A']++==0) counter++;   /*modify counter here*/
@@ -32,6 +32,7 @@ class Solution {
         return d==Integer.MAX_VALUE? "":s.substring(head, head+d);    
     }
 }
+
 https://leetcode.com/problems/binary-subarrays-with-sum/submissions/ , code follow similar tempalte:
     public int numSubarraysWithSum(int[] nums, int goal) {
         int ans=0;
