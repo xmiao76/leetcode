@@ -10,7 +10,6 @@
 
 3.2 https://leetcode.com/problems/minimum-window-substring/discuss/26808/Here-is-a-10-line-template-that-can-solve-most-'substring'-problems
 Java template code:
-class Solution {
     public String minWindow(String s, String t) {
         int[] arr = new int[64];        
         int counter=t.length(), begin=0, head=0;//two pointers, one point to tail and one  head
@@ -25,13 +24,13 @@ class Solution {
                     d=end+1-begin;
                 } 
                 //increase begin to make it invalid/valid again
-                if(arr[s.charAt(begin++)-'A']++==0) counter++;   /*modify counter here*/
+                if(arr[s.charAt(begin)-'A']++==0) counter++;   /*modify counter here*/
+                begin++;                
             }
             /* update d here if finding maximum*/
         }
         return d==Integer.MAX_VALUE? "":s.substring(head, head+d);    
     }
-}
 
 https://leetcode.com/problems/binary-subarrays-with-sum/submissions/ , code follow similar tempalte:
     public int numSubarraysWithSum(int[] nums, int goal) {
