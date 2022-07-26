@@ -5,3 +5,7 @@
     复杂度
         时间复杂度 O(L) 增删查改 
         空间复杂度 O(N * L) N 是单词数，L是单词⻓度
+        
+https://leetcode.com/problems/concatenated-words/
+https://leetcode.com/problems/concatenated-words/discuss/348972/Java-Common-template-Word-Break-I-Word-Break-II-Concatenated-Words
+
