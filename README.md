@@ -3,7 +3,8 @@ Leetcode algo code template:
 0,LEETCODE COMMON TEMPLATES & COMMON CODE PROBLEMS
 https://cheatsheet.dennyzhang.com/cheatsheet-leetcode-a4 (python)
 
-1,Binary search 
+1,Binary search   
+--while(left<right){if-right-else-left}
 
 2,DFS template
 
