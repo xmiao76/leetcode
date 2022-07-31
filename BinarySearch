@@ -5,6 +5,9 @@
 找到⼀个最⼤/最⼩的值使得某个条件被满⾜(90%) 
 时间复杂度：O(logn) 
 空间复杂度：O(1)
+
+one line template: while(left<right){if-right-else-left}
+
 1.a:Python template code(java code is similar)
 class Solution:
     def firstBadVersion(self, n) -> int:
