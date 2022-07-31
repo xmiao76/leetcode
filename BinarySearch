@@ -21,5 +21,35 @@ Detail explain: https://leetcode.com/problems/first-bad-version/discuss/769685/P
 1.b: use Java util method: 
 Collections.binarySearch(List slist, T key)
 
+1.c 九章模板
+int binarySearch(int[] nums, int target) { 
+  // corner case 处理
+  if (nums == null || nums.length == 0) { 
+    return -1; 
+  }
+  int start = 0, end = nums.length - 1;
+  // 要点 1: start + 1 < end 
+  while (start + 1 < end) {
+    // 要点 2：start + (end - start) / 2 
+    int mid = start + (end - start) / 2;
+    // 要点 3：=, <, > 分开讨论，mid 不 +1 也不 -1 
+    if (nums[mid] == target) { 
+      return mid;
+    } else if (nums[mid] < target) {
+      start = mid; 
+    } else {
+      end = mid; 
+    }
+  }
+  // 要点 4: 循环结束后，单独处理 start 和 end 
+  if (nums[start] == target) { 
+    return start;
+  }
+  if (nums[end] == target) { 
+    return end; 
+  }
+  return -1; 
+}
+
 Notice:if a number is not present in the list when we use Collections.binarySearch(List slist, T key), it returns -potentialIndex-1, where the potentialIndex is the location at which the number would have been inserted, so to get the exact index author is doing -index - 1
 So, in this case, index = -(-potentialIndex - 1) - 1 = potentialIndex
