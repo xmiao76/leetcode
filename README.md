@@ -7,6 +7,7 @@ https://cheatsheet.dennyzhang.com/cheatsheet-leetcode-a4 (python)
 --while(left<right){if-right-else-left}
 
 2,DFS template
+--dfs{if-return-for-dfs}
 
 3,Two Points code template
         
