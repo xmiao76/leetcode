@@ -6,10 +6,10 @@ https://cheatsheet.dennyzhang.com/cheatsheet-leetcode-a4 (python)
 1,Binary search   
 --while(left<right){mid-if-right-else-left}
 
-2,DFS template                                                    
+2,DFS template                                                                                                            
 --dfs{if-return-for-dfs}
 
-3,Two Pointers code template
+3,Two Pointers code template                                           
 --for{while(left<right){left++right--}}
         
 4,sorting
