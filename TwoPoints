@@ -83,20 +83,18 @@ Java template code:
         if(goal==0){
             ...
         }
-        int begin=0,end=0,sum=0;
+        int begin=0,sum=0,count=1;
         for(int end=0;end<nums.length;end++){
-            sum+=nums[end];/* modify counter here */
-            if(sum==goal){/* counter condition */
-                int count=1;
-                while(begin<end+1 && nums[begin]==0) {count++;begin++;}
-                while(end+1<nums.length && nums[end+1]==0){ ans+=count;end++;}
+            sum+=nums[end];// modify counter here             
+            if(sum==goal){// counter condition 
+                if(end+1<nums.length && nums[end+1]==0){count++;continue;}                
+                while(begin<end+1 && nums[begin]==0) {ans+=count;begin++;}
                 ans+=count;
                 //increase begin to make it invalid/valid again
-                if(begin<nums.length && nums[begin]==1){sum--; begin++;}
+                if(begin<nums.length && nums[begin]==1){sum--; begin++;count=1;}                
             }
         }
         return ans;
-        
     }
-    
+    //for-end-{while-begin-if-end-begin}
 
