@@ -10,7 +10,7 @@ https://cheatsheet.dennyzhang.com/cheatsheet-leetcode-a4 (python)
 --dfs{if-return-for-dfs}
 
 3,Two Pointers code template                                           
---opposite two pointers--for{while(left<right){left++right--}}
+--opposite two pointers--for{while(left<right){left++right--}}                                  
 --same-direction two pointers--for-end-{while-begin-if-end-begin}
         
 4,sorting
