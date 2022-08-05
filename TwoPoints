@@ -6,9 +6,42 @@
 有回⽂ Palindrome 关键词(50%) 
 时间复杂度：O(n) 时间复杂度与最内层循环主体的执⾏次数有关 与有多少重循环⽆关 
 空间复杂度：O(1) 只需要分配两个指针的额外内存
-3.1 https://leetcode.com/problems/binary-subarrays-with-sum/discuss/1353347/Java-3-O(N)-Time-Solutions
+3.1 Opposite two pointers
+    // Opposite two pointers(patition in quicksort) -- while(left<=right){while-left++-while-right--}
+    public void patition(int[] A, int start, int end) {
+        if (start >= end) {
+            return;
+        }
+        int left = start, right = end;
+        // key point 1: pivot is the value, not the index 14. 15. 8. int pivot = A[(start + end) / 2];
+        // key point 2: every time you compare left & right, it should be 18. 19. 10. // left <= right not left < right
+        while (left <= right) {
+            while (left <= right && A[left] < pivot) {
+                left++;
+            }
+            while (left <= right && A[right] > pivot) {
+                right--;
+            }
+            if (left <= right) {
+                int temp = A[left];
+                A[left] = A[right];
+                A[right] = temp;
+                left++;
+                right--;
+            }
+        }
+    }
+    
+3.1.1 Two-Pointers-Template-for-nSum problem: 
+https://leetcode.com/problems/3sum/discuss/820254/Two-Pointers-Template-for-such-problems-!-Python3-AC(for-while template, translated to java)
+--for{while(left<right){left++right--}}
+https://leetcode.com/problems/3sum/submissions/ (can use for-while template)
 
-3.2 https://leetcode.com/problems/minimum-window-substring/discuss/26808/Here-is-a-10-line-template-that-can-solve-most-'substring'-problems
+3.2 same-direction two pointers
+
+3.2.1 https://leetcode.com/problems/binary-subarrays-with-sum/discuss/1353347/Java-3-O(N)-Time-Solutions
+
+3.2.2 https://leetcode.com/problems/minimum-window-substring/discuss/26808/Here-is-a-10-line-template-that-can-solve-most-'substring'-problems
 Java template code:
     public String minWindow(String s, String t) {
         int[] arr = new int[64];        
@@ -32,7 +65,7 @@ Java template code:
         return d==Integer.MAX_VALUE? "":s.substring(head, head+d);    
     }
 
-https://leetcode.com/problems/binary-subarrays-with-sum/submissions/ , code follow similar tempalte:
+3.2.3 https://leetcode.com/problems/binary-subarrays-with-sum/submissions/ , code follow similar tempalte:
     public int numSubarraysWithSum(int[] nums, int goal) {
         int ans=0;
         if(goal==0){
@@ -54,7 +87,4 @@ https://leetcode.com/problems/binary-subarrays-with-sum/submissions/ , code foll
         
     }
     
-3.3 Two-Pointers-Template-for-nSum problem: 
-https://leetcode.com/problems/3sum/discuss/820254/Two-Pointers-Template-for-such-problems-!-Python3-AC(for-while template, translated to java)
 
-https://leetcode.com/problems/3sum/submissions/ (can use for-while template)
