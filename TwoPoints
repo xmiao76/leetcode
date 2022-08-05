@@ -38,6 +38,18 @@ https://leetcode.com/problems/3sum/discuss/820254/Two-Pointers-Template-for-such
 https://leetcode.com/problems/3sum/submissions/ (can use for-while template)
 
 3.2 same-direction two pointers
+--for-end-{while-begin-if-end-begin}
+    // 同向双指针
+    int begin = 0;
+    for (int end = 0; end < n; end++) {
+        // 不满足则循环到满足搭配为止
+        while (begin < n && end 到 begin 之间不满足条件) {
+            begin += 1;
+        }
+        if (end 到 begin 之间满足条件) {
+            处理 end，begin 这次搭配
+        }
+    }
 
 3.2.1 https://leetcode.com/problems/binary-subarrays-with-sum/discuss/1353347/Java-3-O(N)-Time-Solutions
 
