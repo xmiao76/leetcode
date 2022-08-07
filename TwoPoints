@@ -76,6 +76,7 @@ Java template code:
         }
         return d==Integer.MAX_VALUE? "":s.substring(head, head+d);    
     }
+    //for-end-{while-begin+-if-end-begin}
 
 3.2.3 https://leetcode.com/problems/binary-subarrays-with-sum/submissions/ , code follow similar tempalte:
     public int numSubarraysWithSum(int[] nums, int goal) {
@@ -96,5 +97,5 @@ Java template code:
         }
         return ans;
     }
-    //for-end-{while-begin-if-end-begin}
+    //for-end-{while-begin+-if-end-begin}
 
