@@ -38,7 +38,7 @@ https://leetcode.com/problems/3sum/discuss/820254/Two-Pointers-Template-for-such
 https://leetcode.com/problems/3sum/submissions/ (can use for-while template)
 
 3.2 same-direction two pointers
---for-end-{while-begin-if-end-begin}
+--for-end-{while-begin+-if-end-begin}
     // 同向双指针
     int begin = 0;
     for (int end = 0; end < n; end++) {
