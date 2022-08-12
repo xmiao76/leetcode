@@ -6,6 +6,10 @@
     给定⼀个变换规则，从初始状态变到终⽌状态最少⼏步(100%) 
     时间复杂度：O(n + m) n 是点数, m 是边数 
     空间复杂度：O(n)
+
+oneline template:
+--queue.offer-distance0-while(!queue){queue.poll-if-continue-for{if-continue-queue.offer-distance+}}
+    
 7.1,
 https://leetcode.com/problems/01-matrix/
 https://leetcode.com/problems/01-matrix/discuss/1499453/JAVA-%2B-BFS-SOLUTION-WITH-BETTER-INTUITION
