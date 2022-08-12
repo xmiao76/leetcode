@@ -18,6 +18,7 @@ https://cheatsheet.dennyzhang.com/cheatsheet-leetcode-a4 (python)
 5,⼆叉树分治 Binary Tree Divide & Conquer
 
 6,BST Iterator
+--while(!cur!||!stack)){while(!cur){add,cur=let}pop,cur=right}
     
 7,宽度优先搜索 BFS
     
