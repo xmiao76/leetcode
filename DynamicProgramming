@@ -71,8 +71,6 @@
                     ◦ 状态 state
                         状态表⽰通常为: dp[i] 表⽰以坐标为 i 的元素结尾的最⻓⻰的⻓度 
                         ⽅程 function dp[i] = max{dp[j] + 1}, j 的后⾯可以接上 i
-                        
-                https://leetcode.com/problems/longest-increasing-subsequence/
                 
     复杂度 
         • 时间复杂度: 
@@ -85,3 +83,5 @@
 https://leetcode.com/problems/wildcard-matching/submissions/
 8.2 划分型
 https://leetcode.com/problems/word-break/
+8.3 接龙型
+https://leetcode.com/problems/longest-increasing-subsequence/
