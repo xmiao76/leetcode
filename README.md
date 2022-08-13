@@ -24,8 +24,7 @@ https://cheatsheet.dennyzhang.com/cheatsheet-leetcode-a4 (python)
 --queue.offer-distance0-while(!queue){queue.poll-if-continue-for{if-continue-queue.offer-distance+}}
     
 8, Dynamic Programming                                                       
-8.3 Solitaire type                                                    
---dp[j]=max(dp[j],dp[i]+1)
+8.3 Solitaire type --dp[j]=max(dp[j],dp[i]+1)
                                                                                                             
 9 堆 Heap 
                                                                        
