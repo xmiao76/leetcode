@@ -84,4 +84,5 @@ https://leetcode.com/problems/wildcard-matching/submissions/
 8.2 划分型
 https://leetcode.com/problems/word-break/
 8.3 接龙型
+dp[j]=max(dp[j],dp[i]+1)
 https://leetcode.com/problems/longest-increasing-subsequence/
