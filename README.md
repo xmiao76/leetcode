@@ -26,7 +26,8 @@ https://cheatsheet.dennyzhang.com/cheatsheet-leetcode-a4 (python)
 8, Dynamic Programming                                                                            
 8.1 Matching type ----dp[n+1][m+1],dp[i][0],dp[0][j],for-i-for-j-dp[i][j]                                                                                
 8.2 Partition type  ----dp[len+1]-for-for-dp[i] or dp[m+1][n+1]-for-for-dp[i][j]                                                                                
-8.3 Solitaire type --dp[j]=max(dp[j],dp[i]+1)
+8.3 Solitaire type --dp[j]=max(dp[j],dp[i]+1)                                                               
+8.4 1/0 knapsack problem ----dp[n+1][sum+1]--for-for-dp[i][j] = dp[i][j] or || dp[i-1][j-nums[i-1]]
                                                                                                             
 9 堆 Heap 
                                                                        
