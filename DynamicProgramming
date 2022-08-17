@@ -92,3 +92,5 @@ https://leetcode.com/problems/longest-increasing-subsequence/
 --dp[n+1][sum+1]--for-for-dp[i][j] = dp[i][j] or || dp[i-1][j-nums[i-1]]
 https://leetcode.com/problems/partition-equal-subset-sum/
 8.5 多重背包
+8.6 划分型
+https://leetcode.com/problems/minimum-cost-to-merge-stones/submissions/
