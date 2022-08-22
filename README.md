@@ -31,7 +31,8 @@ https://cheatsheet.dennyzhang.com/cheatsheet-leetcode-a4 (python)
 8.5                                                                                                                                                     
 8.6 Interval type --for-interval-for-i-for-j+ineterval-dp[i][j] = max/min/sum/or(dp[smaller interval inside i,j])
                                                                                                             
-9 堆 Heap 
+9 堆 Heap                                                         
+--PriorityQueue-for/while-poll-if-offer                                        
                                                                        
 10, 并查集 Union Find 
                                                                                                             
