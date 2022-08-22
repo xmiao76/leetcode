@@ -93,5 +93,5 @@ https://leetcode.com/problems/longest-increasing-subsequence/
 https://leetcode.com/problems/partition-equal-subset-sum/
 8.5 多重背包
 8.6 区间型                                                             
---for-for-dp[i][j] = max/min/sum/or(dp[smaller interval inside i,j])
+--for-interval-for-i-for-j+ineterval-dp[i][j] = max/min/sum/or(dp[smaller interval inside i,j])
 https://leetcode.com/problems/minimum-cost-to-merge-stones/submissions/
