@@ -29,7 +29,7 @@ https://cheatsheet.dennyzhang.com/cheatsheet-leetcode-a4 (python)
 8.3 Solitaire type --dp[j]=max(dp[j],dp[i]+1)                                                               
 8.4 1/0 knapsack problem ----dp[n+1][sum+1]--for-for-dp[i][j] = dp[i][j] or || dp[i-1][j-nums[i-1]]                                             
 8.5                                                                                                                                                     
-8.6 Interval type --for-for-dp[i][j] = max/min/sum/or(dp[smaller interval inside i,j])
+8.6 Interval type --for-interval-for-i-for-j+ineterval-dp[i][j] = max/min/sum/or(dp[smaller interval inside i,j])
                                                                                                             
 9 堆 Heap 
                                                                        
