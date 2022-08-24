@@ -3,7 +3,8 @@
     • 需要查询图的连通状况的问题 
     • 需要⽀持快速合并两个集合的问题 复杂度 
     • 时间复杂度 union O(1), find O(1) 
-    • 空间复杂度 O(n)
+    • 空间复杂度 O(n)                                                            
+--UnionFind(parent,size)-union(merge root)-find(return root)                 
 Sample: 
     721. Accounts Merge: https://leetcode.com/problems/accounts-merge/
         class UnionFind {
