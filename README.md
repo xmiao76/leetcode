@@ -34,7 +34,8 @@ https://cheatsheet.dennyzhang.com/cheatsheet-leetcode-a4 (python)
 9 堆 Heap                                                         
 --PriorityQueue-for/while-poll-if-offer                                        
                                                                        
-10, 并查集 Union Find 
+10, 并查集 Union Find                                                                                               
+--UnionFind(parent,size)-union(merge root)-find(return root)                                                       
                                                                                                             
 11, 字典树 Trie                                      
                                       
