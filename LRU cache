@@ -3,4 +3,6 @@
 • 时间复杂度 get O(1), set O(1) 
 • 空间复杂度 O(n)
 
+code template -- new LinkedHashMap(capacity, 0.75f, true){boolean removeEldestEntry(Map.Entry eldest) {return size() > capacity}}
+
 https://leetcode.com/problems/lru-cache/
