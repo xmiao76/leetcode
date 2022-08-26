@@ -40,4 +40,5 @@ https://cheatsheet.dennyzhang.com/cheatsheet-leetcode-a4 (python)
 11, 字典树 Trie                                                      
 --Trie{Trie array[] = new Trie[n];boolean}
                                       
-12, LRU 缓存
+12, LRU 缓存                                                             
+--new LinkedHashMap(capacity, 0.75f, true){boolean removeEldestEntry(Map.Entry eldest) {return size() > capacity}}
