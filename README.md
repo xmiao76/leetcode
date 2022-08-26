@@ -37,6 +37,7 @@ https://cheatsheet.dennyzhang.com/cheatsheet-leetcode-a4 (python)
 10, 并查集 Union Find                                                                                               
 --UnionFind(parent,size)-union(merge root)-find(return root)                                                       
                                                                                                             
-11, 字典树 Trie                                      
+11, 字典树 Trie                                                      
+--Trie{Trie array[] = new Trie[n];boolean}
                                       
 12, LRU 缓存
