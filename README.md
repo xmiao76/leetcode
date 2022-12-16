@@ -14,6 +14,7 @@ https://cheatsheet.dennyzhang.com/cheatsheet-leetcode-a4 (python)
 --same-direction two pointers--for-end-{while-begin+-if-end-begin}
         
 4,sorting
+Arrays.sort(myArr, (a, b) -> a[0] - b[0]);
 
 5,⼆叉树分治 Binary Tree Divide & Conquer
 
