@@ -11,7 +11,7 @@ https://cheatsheet.dennyzhang.com/cheatsheet-leetcode-a4 (python)
 
 3,Two Pointers code template                                           
 --opposite two pointers--for{while(left<right){left++right--}}                                  
---same-direction two pointers--for-end-{while-begin+-if-end-begin}
+--same-direction two pointers--for-end-{while-begin+-if-end-begin} or --for-begin-{while-end+-if-begin-end}
         
 4,sorting
 Arrays.sort(myArr, (a, b) -> a[0] - b[0]);
