@@ -38,16 +38,16 @@ https://leetcode.com/problems/3sum/discuss/820254/Two-Pointers-Template-for-such
 https://leetcode.com/problems/3sum/submissions/ (can use for-while template)
 
 3.2 same-direction two pointers
---for-end-{while-begin+-if-end-begin}
+--for-begin-{while-end+-if-begin-end}
     // 同向双指针
-    int begin = 0;
-    for (int end = 0; end < n; end++) {
+    int end = 0;
+    for (int begin = 0; begin < n; begin++) {
         // 不满足则循环到满足搭配为止
-        while (begin < n && end 到 begin 之间不满足条件) {
-            begin += 1;
+        while (end < n && begin 到 end 之间不满足条件) {
+            end += 1;
         }
-        if (end 到 begin 之间满足条件) {
-            处理 end，begin 这次搭配
+        if (begin 到 end 之间满足条件) {
+            处理 begin，end 这次搭配
         }
     }
 
