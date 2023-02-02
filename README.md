@@ -43,3 +43,6 @@ Arrays.sort(myArr, (a, b) -> a[0] - b[0]);
                                       
 12, LRU 缓存                                                             
 --new LinkedHashMap(capacity, 0.75f, true){boolean removeEldestEntry(Map.Entry eldest) {return size() > capacity}}
+
+other
+--reverse listNode: next= -> current.next= -> prev= -> current=
