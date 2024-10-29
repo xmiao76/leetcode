@@ -1,7 +1,7 @@
 Leetcode algo code template:
 
 0,LEETCODE COMMON TEMPLATES & COMMON CODE PROBLEMS
-https://cheatsheet.dennyzhang.com/cheatsheet-leetcode-a4 (python)
+[https://cheatsheet.dennyzhang.com/cheatsheet-leetcode-a4](https://github.com/dennyzhang/cheatsheet.dennyzhang.com/tree/master/cheatsheet-leetcode-A4) (python)
 
 1,Binary search   
 --while(left<right){mid-if-right=mid-else-left=mid+1}
