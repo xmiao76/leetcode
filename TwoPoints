@@ -80,22 +80,23 @@ Java template code:
 
 3.2.3 https://leetcode.com/problems/binary-subarrays-with-sum/submissions/ , code follow similar tempalte:
     public int numSubarraysWithSum(int[] nums, int goal) {
-        int ans=0;
-        if(goal==0){
-            ...
-        }
-        int begin=0,sum=0,count=1;
-        for(int end=0;end<nums.length;end++){
-            sum+=nums[end];// modify counter here             
-            if(sum==goal){// counter condition 
-                if(end+1<nums.length && nums[end+1]==0){count++;continue;}                
-                while(begin<end+1 && nums[begin]==0) {ans+=count;begin++;}
-                ans+=count;
-                //increase begin to make it invalid/valid again
-                if(begin<nums.length && nums[begin]==1){sum--; begin++;count=1;}                
-            }
-        }
-        return ans;
+        return countSubarraysWithSumAtMost(nums, goal) - countSubarraysWithSumAtMost(nums, goal - 1);
     }
-    //for-end-{while-begin+-if-end-begin}
+
+    private int countSubarraysWithSumAtMost(int[] nums, int S) {
+        if (S < 0) return 0;
+        int left = 0, sum = 0, result = 0;
+        for (int right = 0; right < nums.length; right++) {
+            sum += nums[right];
+
+            while (sum > S) {
+                sum -= nums[left];
+                left++;
+            }
+
+            result += right - left + 1;
+        }
+        return result;
+    }
+    //for_end{while_begin+}_end-begin}
 
