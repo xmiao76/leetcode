@@ -14,7 +14,7 @@ Leetcode algo code template:
 --same-direction two pointers--for-end-{while-begin+-if-end-begin} or --for-begin-{while-end+-if-begin-end}
         
 4,sorting
-Arrays.sort(myArr, (a, b) -> a[0] - b[0]);
+Arrays.sort(myArr, (a, b) -> a[0] - b[0]);-->Arrays.sort(myArr, (a, b) -> Integer.compare(b[0], a[0]));(avoid potential integer overflow)
 
 5,⼆叉树分治 Binary Tree Divide & Conquer
 
