@@ -19,6 +19,7 @@ oneline template:
 
 https://leetcode.com/problems/number-of-islands/discuss/1089975/java-dfs-1ms-general-matrix-traversing-dfs-template?msclkid=61b9991cce9011ec8ac5370ae07b7016
 
+--while(cur!null||!stackempty){while(cur!null){stack.add;cur=cur.left}cur = stack.pop;cur = cur.right}
 https://leetcode.com/problems/binary-tree-inorder-traversal/
 https://leetcode.com/problems/factor-combinations/
 public ReturnType dfs(参数列表) { 
