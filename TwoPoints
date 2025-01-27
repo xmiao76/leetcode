@@ -52,6 +52,7 @@ https://leetcode.com/problems/3sum/submissions/ (can use for-while template)
     }
 
 3.2.1 https://leetcode.com/problems/binary-subarrays-with-sum/discuss/1353347/Java-3-O(N)-Time-Solutions
+//for_end{while_begin+}_end-begin}
 
 3.2.2 https://leetcode.com/problems/minimum-window-substring/discuss/26808/Here-is-a-10-line-template-that-can-solve-most-'substring'-problems
 Java template code:
