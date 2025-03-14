@@ -95,4 +95,5 @@ https://leetcode.com/problems/partition-equal-subset-sum/
 8.5 多重背包
 8.6 区间型                                                             
 --for-interval-for-i-for-j+ineterval-dp[i][j] = max/min/sum/or(dp[smaller interval inside i,j])
+https://app.diagrams.net/#G12NOSLTd0-10T7Lk2juoWpoRXnadGSAlb#%7B%22pageId%22%3A%22WPuKOKXen4IgxVJ5Whrc%22%7D
 https://leetcode.com/problems/minimum-cost-to-merge-stones/submissions/
