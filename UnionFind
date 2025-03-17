@@ -7,6 +7,7 @@
 --UnionFind(parent,size)-union(merge root)-find(return root)                 
 Sample: 
     721. Accounts Merge: https://leetcode.com/problems/accounts-merge/
+https://app.diagrams.net/#G11Mg-MMBDKGtiloYpXZzu1-WvUPWj7aSY#%7B%22pageId%22%3A%224pWmP0SnhOm66gt2bKk7%22%7D
         class UnionFind {
             int[] parent;
             int[] weight;
