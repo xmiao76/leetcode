@@ -50,6 +50,7 @@ https://app.diagrams.net/#G11Mg-MMBDKGtiloYpXZzu1-WvUPWj7aSY#%7B%22pageId%22%3A%
             }
         }                                                                                                        
     803. Bricks Falling When Hit , https://leetcode.com/problems/bricks-falling-when-hit/ , https://www.youtube.com/watch?v=qItIA8m3OnU
+https://app.diagrams.net/#G1pgol_8M6OKHtFyDvIqq2cfbfhy1692Bx#%7B%22pageId%22%3A%22LROWdz8aXaZVOGj22BEw%22%7D
         private class UnionFind {
 
             /**
