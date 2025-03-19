@@ -21,6 +21,7 @@ class Solution:
         return left
         
 Detail explain: https://leetcode.com/problems/first-bad-version/discuss/769685/Python-Clear-explanation-Powerful-Ultimate-Binary-Search-Template.-Solved-many-problems
+https://app.diagrams.net/#G1oHxrAmG32uq1wlF3bcPmvM9JbcmYIitk#%7B%22pageId%22%3A%22hdJxAqHznzwORluRy3cX%22%7D
 1.b: use Java util method: 
 Collections.binarySearch(List slist, T key)
 Notice:if a number is not present in the list when we use Collections.binarySearch(List slist, T key), it returns -potentialIndex-1, where the potentialIndex is the location at which the number would have been inserted, so to get the exact index author is doing -index - 1
