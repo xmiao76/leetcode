@@ -22,6 +22,7 @@ https://app.diagrams.net/#G1rsnxJ3ZlBWcFLecp4UY2vKZb-c77lw7y#%7B%22pageId%22%3A%
 
 --while(cur!null||!stackempty){while(cur!null){stack.add;cur=cur.left}cur = stack.pop;cur = cur.right}
 https://leetcode.com/problems/binary-tree-inorder-traversal/
+https://app.diagrams.net/#G1Gi4-bEromqwhy1nFoLgq5s2J3ynn0RMA#%7B%22pageId%22%3A%22I4jua8Z8qxcylVKC-p0v%22%7D
 https://leetcode.com/problems/factor-combinations/
 public ReturnType dfs(参数列表) { 
     if (递归出⼝) { 
