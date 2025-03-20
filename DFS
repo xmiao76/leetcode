@@ -18,6 +18,7 @@ oneline template:
 --if{return}for{modify-dfs-recover}return
 
 https://leetcode.com/problems/number-of-islands/discuss/1089975/java-dfs-1ms-general-matrix-traversing-dfs-template?msclkid=61b9991cce9011ec8ac5370ae07b7016
+https://app.diagrams.net/#G1rsnxJ3ZlBWcFLecp4UY2vKZb-c77lw7y#%7B%22pageId%22%3A%22tQhDEkRRTKNlKgXp_lD3%22%7D
 
 --while(cur!null||!stackempty){while(cur!null){stack.add;cur=cur.left}cur = stack.pop;cur = cur.right}
 https://leetcode.com/problems/binary-tree-inorder-traversal/
