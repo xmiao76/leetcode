@@ -34,6 +34,7 @@
     
 3.1.1 Two-Pointers-Template-for-nSum problem: 
 https://leetcode.com/problems/3sum/discuss/820254/Two-Pointers-Template-for-such-problems-!-Python3-AC(for-while template, translated to java)
+https://app.diagrams.net/#G1M6hWt1IXyUPc3x9GsE_gcuUwLFZu493r#%7B%22pageId%22%3A%22mSIYy-me-NW2KPO4IAqQ%22%7D
 --for{while(left<right){left++right--}}
 https://leetcode.com/problems/3sum/submissions/ (can use for-while template)
 
