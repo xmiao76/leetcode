@@ -57,6 +57,7 @@ https://app.diagrams.net/#G1aBbxtw3sdp9qmihQBuPFxli1NsNmO28l#%7B%22pageId%22%3A%
 //for_end{while_begin+}_end-begin}
 
 3.2.2 https://leetcode.com/problems/minimum-window-substring/discuss/26808/Here-is-a-10-line-template-that-can-solve-most-'substring'-problems
+https://app.diagrams.net/#G15Upz8oioVW8r-PAHZ2jpXloGXOjok7sL#%7B%22pageId%22%3A%22NsBB0EtrX8hoil6DLORW%22%7D
 Java template code:
     public String minWindow(String s, String t) {
         int[] arr = new int[64];        
