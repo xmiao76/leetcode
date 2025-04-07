@@ -9,6 +9,7 @@ oneline template:
     while(!cur||!stack)){while(!cur){add,cur=left}pop,cur=right}
 
 https://leetcode.com/problems/binary-tree-inorder-traversal/
+https://app.diagrams.net/#G1CKEdCfdX-bIBt5IVq-p57RHFMSMG5dUS#%7B%22pageId%22%3A%22_eL227X9seFj_DLrU57p%22%7D
 
 public List<Integer> inorderTraversal(TreeNode root) {
         List<Integer> list = new ArrayList<Integer>();
