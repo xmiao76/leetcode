@@ -31,6 +31,7 @@ public List<Integer> inorderTraversal(TreeNode root) {
     }
     
 https://leetcode.com/problems/kth-smallest-element-in-a-bst/    
+https://app.diagrams.net/#G1mARZ5K1GODJ2-4m_3J6wdGgaX2RjcyTs#%7B%22pageId%22%3A%22_eL227X9seFj_DLrU57p%22%7D
     public int kthSmallest(TreeNode root, int k) {
       Stack<TreeNode> stack = new Stack<TreeNode>();
         TreeNode cur = root;
