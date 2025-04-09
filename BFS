@@ -13,6 +13,7 @@ oneline template:
 7.1,
 https://leetcode.com/problems/01-matrix/
 https://leetcode.com/problems/01-matrix/discuss/1499453/JAVA-%2B-BFS-SOLUTION-WITH-BETTER-INTUITION
+https://app.diagrams.net/#G1jFbaMLjEEPUSl-6b9KAK30a8_4HkFov8#%7B%22pageId%22%3A%22NqYn7Y-sS32tGTjHOPWD%22%7D
     
 ReturnType bfs(Node startNode) { 
     // BFS 必须要⽤队列 queue，别⽤栈 stack！ 
