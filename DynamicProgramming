@@ -82,6 +82,7 @@
 8.1 匹配型                                                                                             
 --dp[n+1][m+1],dp[i][0],dp[0][j],for-i-for-j-dp[i][j]
 https://leetcode.com/problems/wildcard-matching/submissions/
+https://app.diagrams.net/#G1IDlK13VqCQi2114fsBG_8pFd4oAt95OF#%7B%22pageId%22%3A%225ASNbS6SL7Em8kp8dTOd%22%7D
 8.2 划分型                                                                                                                     
 --dp[len+1]-for-for-dp[i] or dp[m+1][n+1]-for-for-dp[i][j]
 https://leetcode.com/problems/word-break/
