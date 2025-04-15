@@ -86,6 +86,7 @@ https://app.diagrams.net/#G1IDlK13VqCQi2114fsBG_8pFd4oAt95OF#%7B%22pageId%22%3A%
 8.2 划分型                                                                                                                     
 --dp[len+1]-for-for-dp[i] or dp[m+1][n+1]-for-for-dp[i][j]
 https://leetcode.com/problems/word-break/
+https://app.diagrams.net/#G1_x_LnMuyb9zk5TKMqcOddyk6q-krs620#%7B%22pageId%22%3A%228nAQaFL7D7OAvuHCwFv2%22%7D
 8.3 接龙型
 --dp[j]=max(dp[j],dp[i]+1)
 https://leetcode.com/problems/longest-increasing-subsequence/                                                                           
