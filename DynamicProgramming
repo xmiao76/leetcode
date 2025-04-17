@@ -95,6 +95,7 @@ https://app.diagrams.net/#G1eORB-ewGBC9zhoOje_6ioqS-fIykhP56#%7B%22pageId%22%3A%
 --dp[n+1][sum+1]--for-for-dp[i][j] = dp[i][j] or || dp[i-1][j-nums[i-1]]
 --dp[sum+1]--for-for-dp[j] = dp[j] || dp[j-nums[i]]
 https://leetcode.com/problems/partition-equal-subset-sum/
+https://app.diagrams.net/#G1RImrXzeeLpUtVl3oA_0JQ6O395apfdTo#%7B%22pageId%22%3A%22hoSI-0p5fotH7_hLzy3m%22%7D
 8.5 多重背包
 8.6 区间型                                                             
 --for-interval-for-i-for-j+ineterval-dp[i][j] = max/min/sum/or(dp[smaller interval inside i,j])
