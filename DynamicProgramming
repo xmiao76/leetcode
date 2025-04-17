@@ -89,7 +89,8 @@ https://leetcode.com/problems/word-break/
 https://app.diagrams.net/#G1_x_LnMuyb9zk5TKMqcOddyk6q-krs620#%7B%22pageId%22%3A%228nAQaFL7D7OAvuHCwFv2%22%7D
 8.3 接龙型
 --dp[j]=max(dp[j],dp[i]+1)
-https://leetcode.com/problems/longest-increasing-subsequence/                                                                           
+https://leetcode.com/problems/longest-increasing-subsequence/ 
+https://app.diagrams.net/#G1eORB-ewGBC9zhoOje_6ioqS-fIykhP56#%7B%22pageId%22%3A%22hoSI-0p5fotH7_hLzy3m%22%7D
 8.4 01 背包
 --dp[n+1][sum+1]--for-for-dp[i][j] = dp[i][j] or || dp[i-1][j-nums[i-1]]
 --dp[sum+1]--for-for-dp[j] = dp[j] || dp[j-nums[i]]
