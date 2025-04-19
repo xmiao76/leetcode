@@ -6,3 +6,4 @@
 code template -- new LinkedHashMap(capacity, 0.75f, true){boolean removeEldestEntry(Map.Entry eldest) {return size() > capacity}}
 
 https://leetcode.com/problems/lru-cache/
+https://app.diagrams.net/#G14cBD6PmF-jSg33Ic0Ho-ahb5DPGUQOCE#%7B
